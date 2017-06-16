@@ -1,9 +1,9 @@
-<dom-module id="cm-headers-styles">
+<dom-module id="cm-headers">
   <template>
     <style>
       /* BASICS */
 
-      .CodeMirror.cm-s-cm-arc {
+      .CodeMirror.cm-s-cm-headers {
         font-family: monospace;
         font-size: 15px;
         height: inherit;
@@ -13,24 +13,24 @@
         cursor: text;
       }
 
-      .CodeMirror.cm-s-cm-arc.parsed-content {
+      .CodeMirror.cm-s-cm-headers.parsed-content {
         white-space: pre-line;
       }
 
       /* PADDING */
 
-      .cm-s-cm-arc .CodeMirror-lines {
+      .cm-s-cm-headers .CodeMirror-lines {
         padding: 4px 0;
         /* Vertical padding around content */
       }
 
-      .CodeMirror.cm-s-cm-arc pre {
+      .CodeMirror.cm-s-cm-headers pre {
         padding: 0 4px;
         /* Horizontal padding of content */
       }
 
-      .cm-s-cm-arc .CodeMirror-scrollbar-filler,
-      .cm-s-cm-arc .CodeMirror-gutter-filler {
+      .cm-s-cm-headers .CodeMirror-scrollbar-filler,
+      .cm-s-cm-headers .CodeMirror-gutter-filler {
         background-color: white;
         /* The little square between H and V scrollbars */
         ;
@@ -38,15 +38,15 @@
 
       /* GUTTER */
 
-      .cm-s-cm-arc .CodeMirror-gutters {
+      .cm-s-cm-headers .CodeMirror-gutters {
         border-right: 1px solid #ddd;
         background-color: #f7f7f7;
         white-space: nowrap;
       }
 
-      .cm-s-cm-arc .CodeMirror-linenumbers {}
+      .cm-s-cm-headers .CodeMirror-linenumbers {}
 
-      .cm-s-cm-arc .CodeMirror-linenumber {
+      .cm-s-cm-headers .CodeMirror-linenumber {
         padding: 0 3px 0 5px;
         min-width: 20px;
         text-align: right;
@@ -54,21 +54,21 @@
         white-space: nowrap;
       }
 
-      .cm-s-cm-arc .CodeMirror-guttermarker {
+      .cm-s-cm-headers .CodeMirror-guttermarker {
         color: black;
       }
 
-      .cm-s-cm-arc .CodeMirror-guttermarker-subtle {
+      .cm-s-cm-headers .CodeMirror-guttermarker-subtle {
         color: #999;
       }
 
       /* CURSOR */
 
-      .CodeMirror.cm-s-cm-arc div.CodeMirror-cursor {
+      .CodeMirror.cm-s-cm-headers div.CodeMirror-cursor {
         border-left: 1px solid black;
       }
       /* Shown when moving in bi-directional text */
-      .CodeMirror.cm-s-cm-arc div.CodeMirror-secondarycursor {
+      .CodeMirror.cm-s-cm-headers div.CodeMirror-secondarycursor {
         border-left: 1px solid silver;
       }
 
@@ -133,90 +133,90 @@
 
       /* DEFAULT THEME */
 
-      .cm-s-cm-arc .cm-keyword {
+      .cm-s-cm-headers .cm-keyword {
         color: #708;
       }
 
-      .cm-s-cm-arc .cm-atom {
+      .cm-s-cm-headers .cm-atom {
         color: #B71C1C;
       }
 
-      .cm-s-cm-arc .cm-number {
+      .cm-s-cm-headers .cm-number {
         color: #164;
       }
 
-      .cm-s-cm-arc .cm-def {
+      .cm-s-cm-headers .cm-def {
         color: #00f;
       }
 
-      .cm-s-cm-arc .cm-variable,
-      .cm-s-cm-arc .cm-punctuation,
-      .cm-s-cm-arc .cm-property,
-      .cm-s-cm-arc .cm-operator {
+      .cm-s-cm-headers .cm-variable,
+      .cm-s-cm-headers .cm-punctuation,
+      .cm-s-cm-headers .cm-property,
+      .cm-s-cm-headers .cm-operator {
 
       }
 
-      .cm-s-cm-arc .cm-string.cm-property {
+      .cm-s-cm-headers .cm-string.cm-property {
         color: #43A047;
       }
 
-      .cm-s-cm-arc .cm-variable-2 {
+      .cm-s-cm-headers .cm-variable-2 {
         color: #05a;
       }
 
-      .cm-s-cm-arc .cm-variable-3 {
+      .cm-s-cm-headers .cm-variable-3 {
         color: #085;
       }
 
-      .cm-s-cm-arc .cm-comment {
+      .cm-s-cm-headers .cm-comment {
         color: #a50;
       }
 
-      .cm-s-cm-arc .cm-string {
+      .cm-s-cm-headers .cm-string {
         color: #009688;
       }
 
-      .cm-s-cm-arc .cm-string-2 {
+      .cm-s-cm-headers .cm-string-2 {
         color: #f50;
       }
 
-      .cm-s-cm-arc .cm-meta {
+      .cm-s-cm-headers .cm-meta {
         color: #555;
       }
 
-      .cm-s-cm-arc .cm-qualifier {
+      .cm-s-cm-headers .cm-qualifier {
         color: #555;
       }
 
-      .cm-s-cm-arc .cm-builtin {
+      .cm-s-cm-headers .cm-builtin {
         color: #30a;
       }
 
-      .cm-s-cm-arc .cm-bracket {
+      .cm-s-cm-headers .cm-bracket {
         color: #997;
       }
 
-      .cm-s-cm-arc .cm-tag {
+      .cm-s-cm-headers .cm-tag {
         color: #170;
       }
 
-      .cm-s-cm-arc .cm-attribute {
+      .cm-s-cm-headers .cm-attribute {
         color: #00c;
       }
 
-      .cm-s-cm-arc .cm-header {
+      .cm-s-cm-headers .cm-header {
         color: blue;
       }
 
-      .cm-s-cm-arc .cm-quote {
+      .cm-s-cm-headers .cm-quote {
         color: #090;
       }
 
-      .cm-s-cm-arc .cm-hr {
+      .cm-s-cm-headers .cm-hr {
         color: #999;
       }
 
-      .cm-s-cm-arc .cm-link {
+      .cm-s-cm-headers .cm-link {
         color: #00c;
       }
 
@@ -245,7 +245,7 @@
         text-decoration: line-through;
       }
 
-      .cm-s-cm-arc .cm-error {
+      .cm-s-cm-headers .cm-error {
         color: #f00;
       }
 
@@ -286,7 +286,7 @@
         background: white;
       }
 
-      .cm-s-cm-arc .CodeMirror-scroll {
+      .cm-s-cm-headers .CodeMirror-scroll {
         overflow: auto !important;
         /* Things will break if this is overridden */
         /* 30px is the magic margin used to hide the element's real scrollbars */
